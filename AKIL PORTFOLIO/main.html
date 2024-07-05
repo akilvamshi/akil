@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Profile Page of Akil">
+        <title>Akil Vamshi's Profile</title>
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/Akil Vamshi 4.png" alt="Akil's Logo">
+                </a>
+                <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="nav-menu">           
+            <!--<a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a> -->
+                <a href="AKIL.L RESUME.pdf" class="resume-button"  style="color: white;">Download Resume</a>
+                <div id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <img src="img/profile pic.png" alt="Sanjay pic">
+            <h1>Hello, I am Akil Vamshi, a <span class="about-me"></span></h1>
+            <p>Passionate about bridging technology and user needs, I am a full-stack web developer with a robust foundation in computer science and a zeal for continuous learning. Specializing in creating seamless, intuitive digital experiences, my expertise spans front-end and back-end development, including technologies like JavaScript, React, and Node.js. I thrive on problem-solving and innovation, aiming to contribute to projects that push technological boundaries. Eager to collaborate with like-minded teams, I am on a quest to develop impactful web solutions that drive success and foster growth.</p>
+        </header>
+
+        <div class="content-container">
+    
+            <section>
+                <h2>My Technical Skills</h2>
+                <div class="skills-list">
+                    <ul class="skills-list">
+                        <li>Web Development</li>
+                        <li>UI UX Design</li>
+                        <li>Cinematography</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="horizontal-scroll">
+                <div class="icon-container">
+                    <img src="icons/1.png" alt="Icon 1">
+                    <img src="icons/2.png" alt="Icon 2">
+                    <img src="icons/3.png" alt="Icon 3">
+                    <img src="icons/4.png" alt="Icon 4">
+                    <img src="icons/5.webp" alt="Icon 5">
+                    <img src="icons/6.webp" alt="Icon 6">
+                    <img src="icons/7.svg" alt="Icon 7">
+                    <img src="icons/8.png" alt="Icon 8">
+                    <img src="icons/9.webp" alt="Icon 9">
+                    <img src="icons/10.png" alt="Icon 10">
+                </div>
+            </section>
+            <hr>
+
+            <section id="programming-languages">
+                <h2>Programming Languages</h2>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress-bar" data-progress="60"></div>
+                </div>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar" data-progress="80"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar" data-progress="70"></div>
+                </div>
+            </section>
+            <hr>    
+
+            <section>
+                <h2>My Projects</h2>
+                <p>Take a look at some of my works.</p>
+                <section id="projects">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="https://www.az-delivery.uk/cdn/shop/products/digispark-rev3-kickstarter-mit-attiny85-und-usb-kompatibel-mit-arduino-404240.jpg?v=1679398498" alt="Project 1">
+                            <h3>Project 1: </h3>
+                            <h3>Beyond The Firewall Compromising the Offline Device Vulnerabilities</h3>
+                            <p> A CYBER SECURITY related project, It's done based on OFFLINE device
+                                hacking and protection.</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/3.png" alt="Project 1">
+                            <h3>Project 2:</h3>
+                            <h3>E-Commerce</h3>
+                            <h3>Shopping Website(B2C)</h3>
+                            <p>This project is created to enhance My Web Development skill, This is the first Website Developed at my earliest stage</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More</a>
+
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="https://backendapi.iihtsrt.com/wp-content/uploads/2022/04/UXUI.jpg" alt="Project 1">
+                            <h3>Project 3:</h3>
+                            <h3>UI UX Designer</h3>
+                            <h3>Using FIGMA</h3>
+                            <p>Created and Designed UX & UI for an Mobile application , Designed , Plugins ,and implemented using Figma.</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                        </div>
+                    </div>                        
+            
+                    <!-- Repeat the above structure for each project -->
+                </section>
+                <!--<p><a href="6_project.html">Project 1</a> | <a href="https://www.pantechsolutions.net/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment">Project 2</a></p>-->
+            </section>
+            <hr>
+            
+            <section>
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+            
+                    <button type="submit">Send Message</button>                
+                </form>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Contact Information</h2>
+                <p>Let's connect!</p>
+                <a href="mailto:akilvamshiast4563@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/akil-vamshi-235199272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a><br><br><br>   
+            </section>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2024  Akil. Built by Vamshi.</p>
+        </footer>
+
+        <!-- Project Information Modal -->
+        <div id="projectModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Beyond The Firewall Compromising the Offline Device Vulnerabilities</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is a CYBER SECURITY related.</p>
+                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="https://protosupplies.com/wp-content/uploads/2019/04/ATtiny85-with-Micro-USB.jpg" alt="Project Image 1">
+                                    <img src="https://europe1.discourse-cdn.com/arduino/original/4X/8/9/1/891a8a3e0e8768eb3f2ca25b0e4cba1900d8bdf6.png" alt="Project Image 2">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJf_GhXmfqc2OiWCUxqitbwqqgtsmPZc5Ew&usqp=CAU" alt="Project Image 3">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>A CYBER SECURITY related project, It's done based on OFFLINE device
+                                    hacking and protection.</li>
+                                <li>We aim to investigate and demonstrate alternative techniques with the potential to bypass security measures and extract
+                                    sensitive information from offline device vulnerabilities</li>
+                                <li>Here used Software application is Arduino IDE</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="projectModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>E-Commerce shopping Website</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is for to enhance Web development skill</p>
+                            <a href="file:///C:/Users/Akil%20Vamshi/Documents/ecommerce%20website/shopping.html#" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*SwFB1o_k1LGprN-XRUZQ8w.jpeg" alt="Project Image 4">
+                                    <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2016-11/15/full/1479216270-9932.jpg?im=FeatureCrop,size=(803,452)" alt="Project Image 5">
+                                    <img src="img/3.png" alt="Project Image 6">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>This project is done by using HTML,CSS,JavaScript</li>
+                                <li>This is the site first i developed starting for client</li>
+                                <li>By developing this site i learned lot of CSS designs code and developed</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="projectModal3" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>UI UX Design</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
+                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="https://admin.wac.co/uploads/Blog%20Media/ux_ui-01-3_5915c7e99f7fc2e0.jpg" alt="Project Image 7">
+                                    <img src="https://www.guvi.in/blog/wp-content/uploads/2023/07/Future-and-Scope-of-UIUX-Design.webp" alt="Project Image 8">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIUlLFIEf3K6-SLqIL6saSA35A5ZlguheFg&usqp=CAU" alt="Project Image 9">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Designed an UI & UX for an app using Figma</li>
+                                <li>Platform named as DESIGNERS MATRIX , this created for the students and mentors are in the same platform to hire for jobs</li>
+                                <li>Students ppost their projects and Companys will Hire them for work</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  
+
+    </body>
+</html>
